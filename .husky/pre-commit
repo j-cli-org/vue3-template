@@ -2,4 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 # Lint-staged 是一个在 git 暂存文件上运行 linter 的工具
-# npx lint-staged
+# 格式化 staged 的文件
+npx lint-staged
